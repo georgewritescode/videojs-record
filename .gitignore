@@ -18,7 +18,6 @@ bower_components
 
 # Build-related
 *.log
-dist/
 dist-test/
 docs/
 es5/
