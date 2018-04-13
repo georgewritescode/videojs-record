@@ -17,9 +17,4 @@ node_modules
 bower_components
 
 # Build-related
-*.log
-dist-test/
-docs/
-es5/
-tmp
-coverage/
+
