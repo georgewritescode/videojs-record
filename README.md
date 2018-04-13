@@ -1,3 +1,12 @@
+npm install
+```
+
+Build the library and assets once:
+
+```
+npm run build
+```
+
 Video.js Record
 ===============
 

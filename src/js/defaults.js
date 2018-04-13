@@ -5,6 +5,10 @@
 
 //plugin defaults
 const pluginDefaultOptions = {
+    // added by george
+    videoBitsPerSecond: 800000,
+
+
     // Single snapshot image.
     image: false,
     // Include audio in the recorded clip.
