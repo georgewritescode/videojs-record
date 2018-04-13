@@ -65,6 +65,7 @@ var RecordRTCEngine = function (_RecordEngine) {
             this.engine.numberOfAudioChannels = this.audioChannels;
 
             // video/canvas settings
+            this.engine.videoBitsPerSecond = this.videoBitsPerSecond;
             this.engine.video = this.video;
             this.engine.canvas = this.canvas;
 

@@ -733,7 +733,7 @@ var Record = function (_Plugin) {
             this.recordTimeSlice = recordOptions.timeSlice;
 
             // video/canvas settings
-            this.videoFrameWidth = recordOptions.videoBitsPerSecond;
+            this.videoBitsPerSecond = recordOptions.videoBitsPerSecond;
             this.videoFrameWidth = recordOptions.frameWidth;
             this.videoFrameHeight = recordOptions.frameHeight;
             this.videoRecorderType = recordOptions.videoRecorderType;
@@ -3076,6 +3076,7 @@ var RecordRTCEngine = function (_RecordEngine) {
             this.engine.numberOfAudioChannels = this.audioChannels;
 
             // video/canvas settings
+            this.engine.videoBitsPerSecond = this.videoBitsPerSecond;
             this.engine.video = this.video;
             this.engine.canvas = this.canvas;
 

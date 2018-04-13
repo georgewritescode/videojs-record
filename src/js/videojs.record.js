@@ -124,7 +124,7 @@ class Record extends Plugin {
         this.recordTimeSlice = recordOptions.timeSlice;
 
         // video/canvas settings
-        this.videoFrameWidth = recordOptions.videoBitsPerSecond;
+        this.videoBitsPerSecond = recordOptions.videoBitsPerSecond;
         this.videoFrameWidth = recordOptions.frameWidth;
         this.videoFrameHeight = recordOptions.frameHeight;
         this.videoRecorderType = recordOptions.videoRecorderType;
